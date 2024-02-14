@@ -10,15 +10,16 @@ public class FileText {
         this.path = path;
     }
 
-    public boolean createFile() throws IOException {
+    public void createFile(String content) throws IOException {
         File file = new File(path);
-        BufferedWriter bw;
-        if (!file.exists()){
-            bw = new BufferedWriter(new FileWriter(file));
-            bw.close();
+        if (!file.exists()) {
+            file.createNewFile();
         }else{
-            return false;
+            // Abrir FileWriter en modo de escritura, pasando true para que los cambios se agreguen al final del archivo
+            FileWriter fw = new FileWriter(file, true);
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write(content);
+            bw.close();
         }
-        return true;
     }
 }

@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3aa86b6-b311-41fc-a65e-b095ca4b5549" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilesDocumentsReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/juansito.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text.txt" afterDir="false" />
+    <list default="true" id="a3aa86b6-b311-41fc-a65e-b095ca4b5549" name="Changes" comment="Creation of the method that can read the files inside a folder">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filesLecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/people.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/persons/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/persons/PersonsJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/persons/person2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FilesDocumentsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FilesDocumentsReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/juansito.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +44,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.FilesDocumentsReader.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PersonsJava.executor": "Run",
+    "Application.filesLecture.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomas\Documents\Programacion\TercerSemestreProgramacion{\persistence\src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,8 +88,29 @@
       <updated>1707322615776</updated>
       <workItem from="1707322617165" duration="104000" />
       <workItem from="1707322736808" duration="1485000" />
-      <workItem from="1707437849055" duration="1260000" />
+      <workItem from="1707437849055" duration="2563000" />
+      <workItem from="1707491548482" duration="452000" />
+      <workItem from="1707700715792" duration="1184000" />
+      <workItem from="1707838289684" duration="1309000" />
+      <workItem from="1707879040524" duration="2517000" />
     </task>
+    <task id="LOCAL-00001" summary="Creation of the method that can read the files inside a folder">
+      <option name="closed" value="true" />
+      <created>1707444649797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707444649797</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creation of the method that can read the files inside a folder">
+      <option name="closed" value="true" />
+      <created>1707444799805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707444799805</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Creation of the method that can read the files inside a folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation of the method that can read the files inside a folder" />
   </component>
 </project>
